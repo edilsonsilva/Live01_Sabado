@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+input {
+  display: block;
+  padding: 10px;
+  margin: 10px;
+  font-family: arial;
+}
+button {
+  display: block;
+  border: 0px;
+  background-color: darkred;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px;
+}
+div {
+  font-family: verdana;
+  font-size: 15pt;
+}
