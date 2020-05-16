@@ -13,3 +13,23 @@ while (p >= 0) {
   console.log(nomes[p]);
   p--;
 }
+
+console.log("Exibir dados com o Do While");
+console.log("");
+var s = 0;
+do {
+  console.log(nomes[s]);
+  s++;
+} while (s < nomes.length);
+
+console.log("Abaixo os nomes com forEach");
+//O foreach utiliza uma estrutura de função para fazer a sua execução
+//de leitura do array
+nomes.forEach(function (valor, e) {
+  console.log(valor + " está na posição " + e);
+});
+
+console.log("Abaixo os nomes com MAP");
+nomes.map((valor, e) => {
+  console.log(valor + " está na posição " + e);
+});
